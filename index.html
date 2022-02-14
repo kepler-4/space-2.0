@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+
+
+
+    <style>
+        @font-face {
+            font-family: 'icomoon';
+            src: url('fonts/icomoon.eot?jp2p54');
+            src: url('fonts/icomoon.eot?jp2p54#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?jp2p54') format('truetype'),
+                url('fonts/icomoon.woff?jp2p54') format('woff'),
+                url('fonts/icomoon.svg?jp2p54#icomoon') format('svg');
+            font-weight: normal;
+            font-style: normal;
+            font-display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <!-- 背景图 -->
+        <div class="background" id="mydiv"> <img src="./img/1111_02.jpg" alt=""></div>
+        <nav class="aside">
+            <div class="wrap">
+
+                <!-- logo -->
+                <img src="./img/jpeg.jpg" alt="">
+                <!-- 下划线 -->
+                <div class="bottomLine"></div>
+                <!-- 导航栏 -->
+                <ul class="selectedNav">
+                    <li class="selectedNav1"> <a href="#">首页</a></li>
+                    <li><a href="#">信息发布</a></li>
+                    <li><a href="#" class="fewer">中国航天
+                            <!-- 下拉三角1 -->
+                            <div class="triangle">
+                                <div>重大任务</div>
+                                <div>航空产品</div>
+                                <div>空间科学</div>
+                                <div>空间应用</div>
+                            </div>
+                        </a>
+                    </li>
+                    <li><a href="#">国际合作</a></li>
+                    <li> <a href="#">科普教育
+                            <!-- 下拉三角2 -->
+                            <!-- <div class="triangle">
+                                <div>航天知识</div>
+                                <div>航天人物</div>
+                                <div>权威解读</div>
+                            </div> -->
+                        </a>
+                    </li>
+                    <li><a href="./subpage.html" target="_blank">互动交流</a></li>
+                    <li> <a href="#">资源服务</a></li>
+
+
+                    <!-- 搜索栏 -->
+                    <div class="search">
+                        <form action="#">
+                            <input id="search" type="search" autofocus="autofocus" placeholder="北斗卫星导航系统">
+                            <input id="sub" type="submit" value="">
+                        </form>
+                    </div>
+                    <!-- 注册登录 -->
+                    <a href="./registered.html" target="blank">注册</a>
+                    <a href="./login.html" target="blank">登录</a>
+            </div>
+        </nav>
+        </ul>
+    </header>
+    <!-- 轮播图 -->
+    <div class="slideshow wrap">
+        <!-- 图片 -->
+        <!-- <ul class="slides wrap">
+			<li>
+				<a href="#"><img src="./img/轮播图/lbt.jpg" alt="" width="1205" height="560"></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/轮播图/lbt1.jpg" alt="" width="1205" height="560"></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/轮播图/lbt2.jpg" alt="" width="1205" height="560"></a>
+			</li>
+			<li>
+				<a href="#"><img src="./img/轮播图/lbt3.jpg" alt="" width="1205" height="560"></a>
+			</li>
+		</ul> -->
+        <!-- 切换按钮 -->
+        <!-- <div class="prev"><a href="#"></a></div>
+        <div class="next"><a href="#"></a></div> -->
+        <!-- 小圆点 -->
+        <!-- <ul class="pointer">
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul> -->
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href=""><img src="./img/轮播图/lbt.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href=""><img src="./img/轮播图/lbt1.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href=""><img src="./img/轮播图/lbt2.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href=""><img src="./img/轮播图/lbt3.jpg" alt=""></a>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+    <!-- 楼层区 -->
+    <div class="floor">
+        <!-- 信息发布 -->
+        <div class="information wrap">
+
+            <!-- 外侧标题 -->
+            <div class="title">信息发布</div>
+            <p>-媒体聚焦-</p>
+            <!-- 左侧图片 -->
+            <div class="thumbnail">
+                <img src="./img/6787109_03.jpg" alt="">
+                <div class="summary">
+                    <span>“祝融号”火星车成功驶上火星表面</span>
+                    <ul class="pointer2">
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧文字 -->
+            <div class="message">
+                <a href="#">我国首次火星探测任务着陆火星取得圆满成功...</a>
+                <a href="#">天问一号将于近期择机实施着陆...</a>
+                <a href="#">长征五号B遥二运载火箭末级残骸已再入大气层...</a>
+                <a href="#">这位研究生的名字，“上天”了...</a>
+                <a href="#">欧洲航天局计划2025年前登月建基地...</a>
+                <a href="#">吴艳华参加第七届国际宇航科学院行星防御大会...</a>
+                <a class="last" href="#">[查看更多]</a>
+            </div>
+
+            <div class="msg">
+                <div class="left">
+                    <a href="#">
+                        <h4>中国天眼FAST新发现201颗脉冲星</h4></br>
+                        摄影：徐政勤5月19日12时03分</br>
+                        我国在酒泉卫星发射中心用长征</br>
+                        四号乙运载火箭，成...[详细]
+                    </a>
+                </div>
+                <div class="right">
+                    <a href="#">
+                        <h4>我国成功发射海洋二号D星</h4></br>
+                        记者从国家天文台获悉，日前国家天文台</br>
+                        韩金林研究员领导的科研团队利用FAST望</br>
+                        远镜开展银...[详细]
+                    </a>
+                    <a class="last2" href="#">[查看更多]</a>
+                </div>
+            </div>
+            <!-- 专题报道  -->
+            <article class="project">
+                <p>-专题报道-</p>
+                <div class="pro"><a href="#"><img src="./img/专题报道/新闻发布会.png" alt=""></a></div>
+                <div><a href="#"></a><img src="./img/专题报道/新闻专题.png" alt=""></div>
+                <div><a href="#"></a><img src="./img/专题报道/学术大会.png" alt=""></div>
+                <div><a href="#"></a><img src="./img/专题报道/标准.png" alt=""></div>
+            </article>
+            <!-- 精彩视频 -->
+            <article class="video">
+                <p>-精彩视频-</p>
+                <video class="video1" src="./video/20210515TWYHZL.mp4" controls></video>
+                <!-- 字体图标 -->
+                <!-- <div class="video2">
+                    <span class="left2"><a href="#"></a></span>
+					<div id="con">
+                    <div><a href="#"><img src="./img/精彩视频/v1.jpg" alt="">先睹为快！动画模拟中国火星探究...</a></div>
+                    <div><a href="#"><img src="./img/精彩视频/v2.jpg" alt="">一分钟看中国首次火星探测任务火...</a></div>
+					<div><a href="#"><img src="./img/精彩视频/v3.jpg" alt="">星河满目无悔青春 火星探测任务...</a></div>
+                    </div>
+					<span class="right2"><a href="#"></a></span>
+                </div> -->
+
+                <div id="con">
+                    <ul id="video3">
+                        <li><img src="./img/精彩视频/v1.jpg">
+                            <div>先睹为快！动画模拟中国火星探究...</div>
+                        </li>
+                        <li><img src="./img/精彩视频/v2.jpg">
+                            <div>一分钟看中国首次火星探测任务火...</div>
+                        </li>
+                        <li><img src="./img/精彩视频/v3.jpg">
+                            <div>星河满目无悔青春 火星探测任务...</div>
+                        </li>
+                        <li><img src="./img/精彩视频/v4.jpg">
+                            <div>航天科技集团长征六号运载火箭试...</div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+        <!-- 中国航天 -->
+        <div class="space wrap">
+            <div class="title">中国航天</div>
+            <p>-重大任务-</p>
+
+            <article class="task">
+                <div class="two">
+                    <div class="first">
+                        <img src="./img/重大任务/task1.jpg" alt="" width="290" height="200">
+                        <div class="word">
+                            <a href="#">
+                                <span>中国探月工程的总体规划<br>
+                                    中国探月工程规划为“绕、落、回”三期...
+                                    <span class="detailed"> 详细>></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="middle">
+
+                    </div>
+                    <div class="second">
+                        <img src="./img/重大任务/task2.jpg" alt="" width="290" height="200">
+                        <div class="word">
+                            <a href="#">
+                                <span>高分辨率对地观测系统 </br>
+                                    中国正在建设基于卫星平流层飞艇和飞机的高...
+                                    <span class="detailed"> 详细>></span>
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="first">
+                        <img src="./img/重大任务/task3.jpg" alt="" width="290" height="200">
+                        <div class="word">
+                            <a href="#">
+                                <span>中国载人航天工程简介 </br>
+                                    1992年9月21日，中央政治局常委会批准我国...
+                                    <span class="detailed"> 详细>></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="middle">
+                    </div>
+                    <div class="second">
+                        <img src="./img/重大任务/task4.jpg" alt="" width="290" height="200">
+                        <div class="word">
+                            <a href="#">
+                                <span>北斗卫星导航系统</br>
+                                    北斗卫星导航系统(以下简称北斗系统)是中国...
+                                    <span class="detailed"> 详细>></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="last" href="#">[查看更多]</a>
+            </article>
+            <article class="aerospace">
+                <p>-宇航产品-</p>
+                <!-- 火箭 -->
+                <div class="rocket">
+                    <img src="./img/火箭/6759793.jpg" alt="">
+                    <span>火箭</span>
+                </div>
+                <ul class="product">
+                    <li><a href="#"><img src="./img/火箭/pic_6794035.jpg" alt=""></a>长征二号丙（CZ-2C）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794036.jpg" alt=""></a>长征二号丁（CZ-2D）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794041.jpg" alt=""></a>长征二号F（CZ-2F）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794045.jpg" alt=""></a>长征三号甲（CZ-3A）</li>
+                </ul>
+                <ul class="product1">
+                    <li><a href="#"><img src="./img/火箭/pic_6794048.jpg" alt=""></a>长征三号乙（CZ-3B）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794050.jpg" alt=""></a>长征三号丙运载火箭（CZ-3C）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794062.jpg" alt=""></a>长征四号乙（CZ-4B）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794063.jpg" alt=""></a>长征四号丙（CZ-4C）</li>
+                </ul>
+                <ul class="product1">
+                    <li><a href="#"><img src="./img/火箭/pic_6794064.jpg" alt=""></a>长征五号（CZ-5）</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794254.jpg" alt=""></a>长征六号</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794255.jpg" alt=""></a>长征七号</li>
+                    <li><a href="#"><img src="./img/火箭/pic_6794256.jpg" alt=""></a>长征十一号（CZ-11）</li>
+                </ul>
+
+                <!-- 更多 -->
+                <div class="more1">
+                    <P>更多<a href="#"></a></P>
+                </div>
+                <!-- 卫星 -->
+                <div class="rocket">
+                    <img src="./img/卫星/6759785.jpg" alt="">
+                    <span>卫星</span>
+                </div>
+                <ul class="product">
+                    <li><a href="#"><img src="./img/卫星/pic_6780672.jpg" alt=""></a>通信广播卫星</li>
+                    <li><a href="#"><img src="./img/卫星/pic_6794263.jpg" alt=""></a>对地观测卫星</li>
+                    <li><a href="#"><img src="./img/卫星/pic_6794271.jpg" alt=""></a>高分辨率对地观测系统</li>
+                    <li><a href="#"><img src="./img/卫星/pic_6794273.jpg" alt=""></a>技术试验卫星</li>
+                </ul>
+                <!-- 更多 -->
+                <div class="more">
+                    <P>更多<a href="#"></a></P>
+                </div>
+                <a class="last" href="#">[查看更多]</a>
+            </article>
+        </div>
+        <!-- 国际合作 -->
+        <div class="international wrap">
+            <div class="title">国际合作</div>
+            <!-- 左侧 -->
+            <div class="consulting">
+                <p>-国际咨询-</p>
+
+                <div>
+                    <div class="first1">
+                        <img src="./img/国际咨询/pic_6810380.jpg" alt="" width="240" height="130">
+                        <div class="word1">
+                            <a href="#">
+                                <span>中乌政府间合作委员会航天...<br>
+                                    2020年10月22日，国家航
+                                    天局局长张克俭...
+                                    <span class="detailed"> 详细>></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="first1">
+                        <img src="./img/国际咨询/pic_6810381.jpg" alt="" width="240" height="130">
+                        <div class="word1">
+                            <a href="#">
+                                <span>中俄总理定期会晤委员会...<br>
+                                    2020年10月19日，国家航天
+                                    局局长张克俭...
+                                    <span class="detailed"> 详细>></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 中间 -->
+            <div class="middle2"></div>
+            <!-- 右侧 -->
+            <div class="organization">
+                <p>-中国国家航天局参与的国际组织-</p>
+                <ul>
+                    <li><a href="#">联合国和平利用外层空间委员会</a></li>
+                    <li><a href="#">UNSPIDER北京办公室</a></li>
+                    <li><a href="#">空间与重大灾害国际宪章（CHARTER）</a></li>
+                    <li><a href="#">机构间空间碎片协调委员会(IADC)</a></li>
+                </ul>
+            </div>
+            <a class="last" href="#">[查看更多]</a>
+        </div>
+
+        <!-- 科普教育 -->
+        <div class="education wrap">
+            <div class="title">科普教育</div>
+            <ul>
+                <li><a href="#"><img src="./img/科普教育/indexImg20200215_58.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./img/科普教育/indexImg20200215_61.png" alt=""></a></li>
+                <li><a href="#"><img src="./img/科普教育/indexImg20200215_68.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 电梯导航 -->
+    <div class="elevator">
+        <ul>
+            <li class="current">信息发布</li>
+            <li>中国航天</li>
+            <li>国际合作</li>
+            <li>科普教育</li>
+        </ul>
+
+    </div>
+    <!-- 页脚 -->
+    <footer>
+        <div class="background2">
+            <div class="blogroll ">
+                <h1>友情链接</h1>
+                <span><a href="">中国载人航天工程网</a></span>
+                <span><a href="">中国航天科技集团有限公司</a></span>
+                <span><a href="">中国科学院</a></span>
+                <span><a href="">中国电子科技集团有限公司</a></span><br>
+                <span><a href="">中国兵器工业集团有限公司</a></span>
+                <span><a href="">中国航天科工集团有限公司</a></span>
+            </div>
+            <div class="government">
+                <a href=""><img src="./img/页脚/6767790.png" alt=""></a>
+                <a href=""><img src="./img/页脚/jiucuo.png" alt=""></a>
+            </div>
+
+            <div class="copyright">
+                <p>版权所有：国家航天局承办单位：国家航天局新闻宣传中心</p>
+                <p>地址：北京市海淀区阜成路甲8号 邮编:100048邮箱： webmaster@cnsa.gov.cn 联系电话：010-88581587</p>
+                <p>网站标识码：bm63000001京ICP备05081655号京公网安备11040102100142号</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 轮播图 -->
+    <script>
+        (function () {
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        })();
+    </script>
+    <!-- 懒加载 -->
+    <!-- <script src="./js/EasyLazyload.min.js"></script>
+    <script>
+        lazyLoadInit({
+            showTime: 700,
+            onLoadBackEnd: function (i, e) {
+                console.log("onLoadBackEnd:" + i);
+            },
+            onLoadBackStart: function (i, e) {
+                console.log("onLoadBackStart:" + i);
+            }
+        });
+    </script> -->
+
+    <!-- 背景粒子 -->
+    <script type="text/javascript">
+        window.onload = function () {
+            //配置
+            var config = {
+                vx: 4,	//小球x轴速度,正为右，负为左
+                vy: 4,	//小球y轴速度
+                height: 2,	//小球高宽，其实为正方形，所以不宜太大
+                width: 2,
+                count: 100,		//点个数
+                color: "121, 162, 185", 	//点颜色
+                stroke: "130,255,255", 		//线条颜色
+                dist: 6000, 	//点吸附距离
+                e_dist: 20000, 	//鼠标吸附加速距离
+                max_conn: 10 	//点到点最大连接数
+            }
+
+            //调用
+            CanvasParticle(config);
+        }
+    </script>
+    <script src="./js/canvas-particle.js"></script>
+
+
+</body>
+
+</html>

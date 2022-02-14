@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+	background-image: url(../img/背景/bg0.jpg) ;
+	background-size:100%;
+	background-position: 0px -50px;
+	background-repeat: no-repeat;
+}
+
+
+.title{
+	margin-top: 50px;
+	margin-left: 500px;
+	font-size: 30px;
+	font-weight: 700px;
+	
+}
+.account{
+	margin-left: 900px;
+	font-size: 14px;
+
+}
+a{	
+	
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	text-align: right;
+	color: #b01a1a;
+}
+.xian{
+	width: 524px;
+	height: 3px;
+	border-bottom: 3px solid #FFFFFF;
+	margin: 0 auto;
+}
+ul{
+	margin-top: 30px;
+}
+
+.Information{
+	list-style: none;
+	padding: 12px;
+	width: 500px;
+	height: 30px;
+	border-bottom: 1px solid rgba(255,255,255,.7);
+	line-height: 30px;
+	margin: 0 auto;
+		
+}
+.Information span{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	
+}
+
+.last1{
+	list-style: none;
+	padding: 12px;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.last2{
+	list-style: none;
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+
+button{
+	border-radius:13px ;
+	outline: none;
+	border: none;
+	color: #FFFFFF;
+	background-color:#a6c0fe;
+	color:white;
+	padding:6px 10px;
+	text-align:center;	
+	margin-left: 10px;
+}
+.last1 input{
+	border-radius:13px;
+	outline: none;
+	border: none;
+	color: #FFFFFF;
+	background-color:#a6c0fe;
+	color:white;
+	padding:6px 10px;
+	text-align:center;	
+	margin-left: 50px;
+}
+input{
+	border-radius:13px;
+	outline: none;
+	padding: 5px 10px;
+	outline-style: none ;
+	border: none ;
+	text-shadow: none ;
+	box-shadow: none;
+	
+}
+
+
+	
+
+
+ 
+
+

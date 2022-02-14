@@ -1,0 +1,144 @@
+body{
+    background-color: #f4f4f4;
+}
+
+
+/* 主标题 */
+.title{
+    position: relative;
+    width: 1000px;
+    height: 45px;
+    border-bottom: 5px solid #1679bc;
+	background-color: #FFFFFF;
+	margin: 60px auto 0;
+}
+.title2{
+    position: absolute;
+    bottom: 0;
+}
+.title span{
+    font-size: 16px;
+    color: #1679bc;
+}
+.title a{
+    color: #1679bc;
+}
+/* 主要内容 */
+.community{
+  /* position: relative; */
+    width: 1000px;
+	/* height: 1000px; */
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+/* 左侧标题 */
+.menu{
+	position: absolute;
+    width: 100px;
+	margin-left: 150px;
+	cursor:pointer;
+	background-color: #FFFFFF;
+    
+}
+.menu li {
+    width: 100%;
+    height: 70px;
+    font-size: 16px;
+    line-height: 65px;
+    text-align: center;
+    color: #1679bc;
+    background-color: #FFFFFF;
+}
+
+/* 鼠标经过 */
+/* .menu li:hover{
+    background-color: #1679bc;	
+}
+
+.menu li a:hover{
+	color: #FFFFFF;
+} */
+
+.menu .current {
+	background-color: #1679bc;
+	
+}
+/* 字体图标 */
+.title .icon{
+    font-family: "icomoon";
+    font-size: 25px;
+    margin-left: 5px;
+    color: #1679bc;
+}
+/* 图片盒子 */
+.item{
+	width: 1000px;
+	display: none;
+	
+}
+.box{
+    /* flex布局 */
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto ;
+}
+.box a{
+    width: 270px;
+    height: 245px;
+    font-size: 17px;
+    text-align: center;
+	margin: 20px 2px;
+    color: #000;
+    background-color:#eceaea;
+}
+.box img{
+   width: 270px;
+    height: 220px;
+}
+.opinion {
+	height: 300px;
+	
+}
+.opinion div{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0 20px;
+	font-size: 18px;
+}
+.opinion span{
+	margin-top: 20px;
+	
+}
+.emali{
+	height: 210px;
+	
+}
+.emali div{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0 20px;
+	font-size: 18px;
+}
+.emali span{
+	margin-top: 20px;
+	font-size: 18px;
+}
+
+/* 页码 */
+/* .page{
+    position: absolute;
+    bottom: 20px;
+    left: 430px;   
+}
+.page a{
+    color: #000;
+}
+.page :nth-child(1){
+    color: #f30a0ae7;
+}
+ */
